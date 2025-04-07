@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+:root {
+
+  /* COLORS */
+  --primary-white: #ffffff;
+  --primary-black: #000000;
+
+  --primary-gray-600: #3D6666;
+  --primary-gray-550: #547878;
+  --primary-gray-500: #5E7A7D;
+  --primary-gray-400: #7F9D9F;
+  --primary-gray-300: #9EBBBD;
+  --primary-gray-200: #C5E4E7;
+  --primary-gray-50: #F3F9FA;
+
+  --primary-green-900: #00474B;
+  --primary-green-800: #085C61;
+  --primary-green-750: #0D686D;
+  --primary-green-400: #26C2AE;
+  --primary-green-200: #9FE8DF;
+
+  --primary-orange-400: #E17052;
+
+  /*FONTS  */
+  
+  .space-mono {
+    font-family: "Space Mono", monospace;
+  }
+
+  .text-preset-1 {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -1px;
+  }
+
+  .text-preset-2 {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 47px;
+    letter-spacing: -0.67px; 
+  }
+
+  .text-preset-3 {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0px; 
+  }
+
+  .text-preset-4 {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0px; 
+  }
+
+  .text-preset-5 {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px; 
+  }
+
+  .text-preset-6 {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0px; 
+  }
+
+    --spacing-0: 0px;
+    --spacing-100: 8px;
+    --spacing-200: 16px;
+    --spacing-300: 24px;
+    --spacing-400: 32px;
+    --spacing-600: 48px;
+    --spacing-1000: 80px;
+    --spacing-1200: 96px;
+    --spacing-1500: 120px;
+    --spacing-1600: 128px;        
+  
+}      
