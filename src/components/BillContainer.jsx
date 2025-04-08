@@ -128,7 +128,7 @@ const BillContainer = () => {
   }
 
   return (
-    <div className='flex flex-col h-auto m-5 lg:flex-row max-w-[920px] bg-[var(--primary-white)] mt-20 p-[32px] rounded-3xl gap-10 drop-shadow-2xl' >
+    <div className='flex flex-col h-auto m-5 lg:flex-row max-w-[920px] bg-[var(--primary-white)] mt-20 p-[32px] rounded-3xl gap-10 drop-shadow-xl/25' >
       <div className='flex flex-col w-[100%] justyfy-between h-full gap-5'>
       <div className="flex flex-row items-center justify-between">
         <h1 className="text-preset-5 text-[var(--primary-gray-500)]">Bill</h1>
